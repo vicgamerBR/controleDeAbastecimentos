@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.cab{
+    height: 50px;
+    background-color: blue;
+}
+.login{
+    height: 70%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.input-login{
+    height: 20px;
+    width: 200px;
+    size: 15px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    padding: 7px;
+}
+.rodape{
+    height: 50px;
+    background-color: red;
+}
