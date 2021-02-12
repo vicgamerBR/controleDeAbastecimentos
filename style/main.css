@@ -1,16 +1,36 @@
 body{
     margin: 0;
+    background-color: rgb(221, 219, 219);
 }
 .cab{
-    height: 50px;
-    background-color: blue;
+    height: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 0 0 25px 25px;
 }
-.login{
-    height: 70%;
-    background-color: aqua;
+.box-login{
+    margin-top: 50px;
+    height: 548px;
+    background-color: rgb(221, 219, 219);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.box-login h1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.login{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .input-login{
     height: 20px;
     width: 200px;
@@ -19,8 +39,37 @@ body{
     border-radius: 20px;
     border: none;
     padding: 7px;
+    background-color: beige;
+    color: black;
+    transition: 0.3s ease all;
+}
+.input-login:hover{
+    background-color: black;
+    color: white;
+}
+.input-login:focus{
+    background-color: rgb(85, 85, 85);
+    color: beige;
+}
+.btns-login{
+    width: 200px;
+    height: 20px;
+    size: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    background-color: beige;
+    color: black;
+    transition: 0.3s ease all;
+}
+.btns-login:hover{
+    background-color: black;
+    color: beige;
 }
 .rodape{
     height: 50px;
-    background-color: red;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 25px 25px 0 0;
 }
